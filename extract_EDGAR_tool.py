@@ -130,7 +130,7 @@ def parse_income_statement(args: dict) -> dict:
     Raw Text:
     {raw_data}
     """
-    OPENAI_API_KEY = "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"
+    OPENAI_API_KEY = "your_API_key"
 
     llm = ChatOpenAI(
         model="gpt-4",
@@ -163,4 +163,5 @@ def parse_income_statement(args: dict) -> dict:
 # Test
 # raw_data = get_income_statement_from_edgar("AAPL")
 # print(raw_data)
+
 # parse_income_statement(raw_data, "AAPL")

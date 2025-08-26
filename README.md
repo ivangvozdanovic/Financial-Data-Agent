@@ -2,7 +2,6 @@
 
 This project demonstrates an **Agentic AI** framework for fetching and processing financial data from EDGAR.
 
-
 - **OpenAI Client** as the driving LLM for the agent. 
 - **LangGraph** for creating the agentic framework and connecting the assistant agent to the tools.
 

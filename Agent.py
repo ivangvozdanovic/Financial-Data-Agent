@@ -16,7 +16,7 @@ from extract_EDGAR_tool import get_income_statement_from_edgar, parse_income_sta
 
 import os
 import sys
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "your_API_key"
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 
@@ -360,4 +360,5 @@ if final_response:
     print(final_response)
 else:
     print("No valid assistant response found.")
+
 
